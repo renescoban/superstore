@@ -1,0 +1,21 @@
+"use client"
+
+import { useState } from "react";
+
+const Square = (  ) => {
+    
+    const [value, setValue] = useState(null);
+
+
+    function handleClick(){
+        setValue('X');
+        
+    }
+   
+
+  return (
+    <button className="well"  onClick={handleClick}>{value}</button>
+  )
+}
+
+export default Square
