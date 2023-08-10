@@ -146,10 +146,10 @@ const randQuote = () => {
     }
 
     return (
-        <div>
+        <div className="container flex flex-col items-center justify-center h-[65vh]">
             <div className="flex justify-center text-center mb-12 px-8" ><div className="p-3 rounded-md" style={asd}><button className='bg-white rounded-xl  px-5 border' onClick={handleClick}>New Quote</button></div></div>
 
-            <div className="min-w-screen rounded-lg  flex flex-col items-center justify-center px-5 py-5 max-w-screen-sm" style={asd}>
+            <div className="min-w-screen rounded-lg   flex flex-col items-center justify-center px-5 py-5 max-w-screen-sm " style={asd}>
                 <div className="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800" >
                     <div className="w-full pt-1 pb-5">
                         <div className="overflow-hidden rounded-full w-20 h-20 -mt-16 mx-auto shadow-lg">
@@ -164,11 +164,12 @@ const randQuote = () => {
                     <div className="w-full" >
                         <p className="text-md text-indigo-500 font-bold text-center">{item.author}</p>
                         <p className="text-xs text-gray-500 text-center">{item.smal}</p>
+                        <p className="text-xs text-gray-500 text-center mt-3">@scott.windon</p>
                     </div>
 
                 </div>
 
-                <p className="text-xs text-gray-500 text-center mt-3">@scott.windon</p>
+                
             </div>
         </div>
 

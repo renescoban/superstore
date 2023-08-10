@@ -4,7 +4,7 @@ import mongoose from 'mongoose'
 
 // process.env.DB_URI
 
-const MONGODB_URI = "mongodb://localhost:27017"
+const MONGODB_URI = "mongodb://localhost:27017/zerotohero"
 
 if (!MONGODB_URI) {
   throw new Error(
@@ -27,3 +27,28 @@ export const connectToDB = async () => {
 }
 
 */
+import mongoose from 'mongoose'
+
+const MONGODB_URI = "mongodb://127.0.0.1:27017/zerotohero"
+let isConnected = false;
+
+
+export const connectToDB = async () => {
+    mongoose.set('strictQuery', true);
+
+
+    try {
+        await mongoose.connect( MONGODB_URI, {
+          // useNewUrlParser: true,
+          // useUnifiedTopology: true,
+        })
+    
+        isConnected = true;
+    
+        console.log('MongoDB connected')
+      } catch (error) {
+        console.log(error);
+      }
+
+
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "role": "Software Engineer",
+    "email": "john.doe@example.com"
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "role": "Product Manager",
+    "email": "jane.smith@example.com"
+  },
+  {
+    "id": "3",
+    "name": "David Johnson",
+    "role": "Data Analyst",
+    "email": "david.johnson@example.com"
+  }
+ 
+  
+]

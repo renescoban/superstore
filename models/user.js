@@ -1,19 +1,17 @@
 import mongoose from 'mongoose'
-import bcrypt from 'bcrypt'
-import validator from 'validator'
+
 
 const userSchema = new mongoose.Schema({
     email: {
         type: String,
         required: true,
         unique: [true, "Account already exists"],
-        validate: [validator.isEmail, 'Please enter a valid email'] //POSSIBLE ERROR
+      //  validate: [validator.isEmail, 'Please enter a valid email'] //POSSIBLE ERROR
     },
     password: {
         type: String,
         required: [true, "Please enter your email"],
-        
-        select: false, //dont send back password after request
+       // select: false, //dont send back password after request
     },
     fullName:{
         type: String,
