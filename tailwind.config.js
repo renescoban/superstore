@@ -1,3 +1,6 @@
+
+
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -10,6 +13,9 @@ module.exports = {
       fontFamily: {
         satoshi: ['Satoshi', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+        Lato:["sans-serif"],
+        Roboto: ["sans-serif"],
+        Poppins: ["sans-serif"]
       },
       colors: {
         'primary-orange': '#FF5722',

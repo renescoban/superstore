@@ -56,7 +56,7 @@ const page = () => {
 
 
   return (
-    <div className=''>
+    <div className='p-3'>
       <div>
         <input id="table-search" className="block p-2 my-2 text-sm  border border-gray-300 rounded-lg w-80  focus:ring-blue-500 focus:border-blue-500 "
           value={location}
@@ -68,7 +68,7 @@ const page = () => {
 
 
       <Tabs.Root className=' gap-1 ' defaultValue="current">
-        <Tabs.List className='flex shrink-0 mb-2 bg-[#f4f4f5] rounded-lg  p-1' aria-label="Manage your account">
+        <Tabs.List className='flex shrink-0 mb-2 bg-sky-50 rounded-lg  p-1' aria-label="Manage your account">
           <Tabs.Trigger className='tabs_trigger' value="current">Current</Tabs.Trigger>
           <Tabs.Trigger className='tabs_trigger' value="forecast">Daily</Tabs.Trigger>
         </Tabs.List>
