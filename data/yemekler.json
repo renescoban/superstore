@@ -1,0 +1,35 @@
+[
+    {
+        "soups": [
+            {
+                "name" : "Ezogelin",
+                "url" : ""
+            },
+            {
+                "name" : "Yayla"
+            },{
+                "name" : "Kelle Paça"
+            },{
+                "name" : "Mercimek"
+            },{
+                "name" : "İşkembe"
+            }
+        ]
+    },
+    {
+        "deserts": [
+            {
+                "name" : "Baklava",
+                "url" : ""
+            },{
+                "name" : "Sütlaç"
+            },{
+                "name" : "Lokum"
+            },{
+                "name" : "Kabak Tatlısı"
+            },{
+                "name" : "Kazandibi"
+            }
+        ]
+    }
+]

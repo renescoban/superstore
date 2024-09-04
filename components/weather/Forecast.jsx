@@ -18,8 +18,8 @@ const Forecast = ({ data }) => {
       {
         data.list.filter((time) => new Date(time.dt_txt).getHours() == new Date(data.list[0].dt_txt).getHours()).map(timi =>
           <>
-            <div className="flex items-center justify-between border-t-2 font-Roboto hover:bg-slate-300">
-              <div className="flex flex-col text-center ">
+            <div className="flex items-center justify-between border-t-2 rounded-md font-Roboto hover:bg-slate-300">
+              <div className="flex flex-col text-center  ">
                 <p className=" " > {new Date(timi.dt * 1000).toLocaleDateString("tr-Tr", { day: "2-digit", month: "short", hour: "2-digit", })}</p>
               </div>
 

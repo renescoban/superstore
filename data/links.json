@@ -1,0 +1,26 @@
+{
+    "name":"Yoma Hun",
+    "avatar":"https://i.pravatar.cc/150?img=33",
+    "links":[
+        {
+            "title":"My Blog",
+            "url":"blog",
+            "image":"https://i.pravatar.cc/150?img=33"
+        },
+        {
+            "title":"My Vercel",
+            "url":"https://vercel.com/",
+            "image":"https://i.pravatar.cc/150?img=33"
+        }
+    ],
+    "socials":[
+        {
+            "title":"Twitter",
+            "url":"https://twitter.com"
+        },
+        {
+            "title":"Github",
+            "url":"https://github.com"
+        }
+    ]
+}

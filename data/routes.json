@@ -1,0 +1,56 @@
+{
+    "Simple": [
+        {
+            "href": "/sm/animation-1",
+            "title": "Animation 1"
+        },
+        {
+            "href": "/list/order",
+            "title": "Table & List"
+        },
+        {
+            "href": "/sm/js-test",
+            "title": "js-test"
+        },
+        {
+            "href": "/sm/weather",
+            "title": "Weather api.."
+        },
+        {
+            "href": "/sm/mylinks",
+            "title": "Links"
+        }
+    ],
+    "Layouts": [
+        {
+            "href": "/layouts/chat-1",
+            "title": "Chat 1"
+        },
+        {
+            "href": "/layouts/chat-2",
+            "title": "Chat 2"
+        },
+        {
+            "href": "/layouts/blog-1",
+            "title": "Blog.."
+        }
+    ],
+    "Components": [
+        {
+            "href": "/sm/component-1",
+            "title": "Components"
+        },
+        {
+            "href": "/sm/counter",
+            "title": "Counter"
+        },
+        {
+            "href": "/sm/rdm/part-1",
+            "title": "Rand Part-1"
+        },
+        {
+            "href": "/sm/quote",
+            "title": "Quote"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import roboFace from 'public/assets/images/roboFace.png'
+import roboFace from '@public/assets/images/roboFace.png'
 import '@styles/rdm.css'
 
 const HoverImg = () => {
@@ -11,9 +11,6 @@ const HoverImg = () => {
                     <h3>Lorem <br />Ipsum</h3>
                 </figcaption>
             </figure>
-
-
-
         </div >
     )
 }

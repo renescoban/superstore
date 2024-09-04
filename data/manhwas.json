@@ -1,0 +1,52 @@
+{
+	"title": "Erojen",
+	"description": "A fighter claims the dragon throne",
+	"href": "/assets/images/manhwa/04.png",
+	"rating": "3.8",
+	"views": "1002",
+	"author": "",
+	"artist": "",
+	"genres": [
+		"Action",
+		"Fantasy"
+	],
+	"type": "Manhwa",
+	"release-date": "",
+	"status": "on-going",
+	"chapters": [
+		{
+			"number": "01",
+			"date": "",
+			"likes": "12"
+		},
+		{
+			"number": "02",
+			"date": "",
+			"likes": "12"
+		},
+		{
+			"number": "03",
+			"date": "",
+			"likes": "12"
+		},
+		{
+			"number": "04",
+			"date": "",
+			"likes": "12"
+		},
+		{
+			"number": "05",
+			"date": "",
+			"likes": "12"
+		},
+		{
+			"number": "06",
+			"date": "22 Jan 2024",
+			"likes": "12"
+		}
+	],
+	"comments": [
+		{}
+	],
+	"bookmarks": "18"
+}

@@ -8,7 +8,7 @@ const page = () => {
 
   return (<>
     <List />
-    <Table />
+    {/* <Table /> */}
     </> )
 }
 
